@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <link href="boostrap/dist/css/bootstrap.css" rel="stylesheet">
+    <link href="inc/css/tuto.css" rel="stylesheet">
+  </head>
+  <body>
+	  <div class="navbar navbar-default">
+		  <div class="navbar-header">
+		    	<a class="navbar-brand" href="#">Mon beau site</a>
+		  </div>
+		  <ul class="nav navbar-nav">
+			    <li class="active"><a href="#">Accueil</a></li>
+			    <li><a href="#">Liens</a></li>
+			    <li><a href="#">Témoignages</a></li>
+			    <li><a href="#">Références</a></li>
+			    <li><a href="#">Bibliographie</a></li>
+		  </ul>
+	</div>
+	  
+    <div class="container">
+ 		 <div class="row">
+   			 <div class="col-md-6"> 6 colonnes
+   			 	<div class="row">
+	    			<div class="col-md-4"> 4 colonnes</div>
+	    			<div class="col-md-4 col-lg-offset-4"> 4 colonnes</div>
+	    		</div>
+    		</div> 		
+    		<div class="col-md-6"> 6 colonnes
+   			 	<div class="row">
+	    			<div class="col-md-4"> 4 colonnes</div>
+	    			<div class="col-md-8"> 8 colonnes</div>
+	    		</div>
+    		</div>	
+    	</div>
+	</div>	
+  </body>
+</html>

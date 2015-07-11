@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <link href="3boostrap/dist/css/bootstrap.css" rel="stylesheet">
+    <link href="inc/css/tuto.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+ 		 <div class="row">
+   			 <div class="col-md-6"> 6 colonnes
+   			 	<div class="row">
+	    			<div class="col-md-4"> 4 colonnes</div>
+	    			<div class="col-md-4 col-lg-offset-4"> 4 colonnes</div>
+	    		</div>
+    		</div> 		
+    		<div class="col-md-6"> 6 colonnes
+   			 	<div class="row">
+	    			<div class="col-md-4"> 4 colonnes</div>
+	    			<div class="col-md-8"> 8 colonnes</div>
+	    		</div>
+    		</div>	
+    	</div>
+	</div>	
+  </body>
+</html>

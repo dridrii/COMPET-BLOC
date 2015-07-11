@@ -1,3 +1,4 @@
+<%@ page pageEncoding="UTF-8" %>
 <!DOCTYPE html>
 <html>
  <head>
@@ -5,24 +6,26 @@
     <link href="inc/css/tuto.css" rel="stylesheet">
   </head>
   <body>
-    <<div class="container">
-  <div class="row">
-    <div class="col-md-12">Premier niveau avec 12 colonnes
-    <div class="row">
-      <div class="col-md-8">Second niveau avec 8 colonnes
-      <div class="row">
-        <div class="col-md-4">Troisième niveau avec 4 colonnes</div>
-        <div class="col-md-6 col-md-offset-2">Troisième niveau avec 6 colonnes
-        <div class="row">
-          <div class="col-md-3 col-md-offset-1">Quatrième niveau avec 3 colonnes</div>
-          <div class="col-md-5 col-md-offset-1">Quatrième niveau avec 5 colonnes</div>
-        </div>
-        </div>
-      </div>
-      </div>
-      <div class="col-md-4">Second niveau avec 4 colonnes</div>
+    <div class="container">
+      <nav class="navbar navbar-default">
+        <ul class="nav navbar-nav">
+          <li> <a href="#">Accueil</a> </li>
+          <li> <a href="#">Liens</a> </li>
+          <li class="dropdown"> 
+            <a data-toggle="dropdown" href="#">Témoignages<b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Dompteurs</a></li>
+              <li><a href="#">Zoos</a></li>
+              <li><a href="#">Chasseurs</a></li>
+              <li class="divider"></li>
+              <li><a href="#">Autres témoignages</a></li>
+            </ul>
+          </li>
+          <li> <a href="#">Références</a> </li>
+        </ul>
+      </nav>
     </div>
-  </div>
-</div>
-  </body>
+    	<script src="boostrap/js/jquery.js"></script>
+      	<script src="boostrap/dist/js/bootstrap.js"></script>
+	</body>
 </html>
