@@ -124,7 +124,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="I:\COMPET-BLOC\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="I:\COMPET-BLOC\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\COMPET-BLOC" path="/COMPET-BLOC" reloadable="true" source="org.eclipse.jst.jee.server:COMPET-BLOC"/></Host>
+      <Context docBase="I:\git-hub\COMPET-BLOC\COMPET-BLOC\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="I:\git-hub\COMPET-BLOC\COMPET-BLOC\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\COMPET-BLOC" path="/COMPET-BLOC" reloadable="true" source="org.eclipse.jst.jee.server:COMPET-BLOC"/></Host>
     </Engine>
   </Service>
 </Server>
