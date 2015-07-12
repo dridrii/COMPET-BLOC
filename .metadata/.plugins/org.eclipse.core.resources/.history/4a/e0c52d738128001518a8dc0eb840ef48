@@ -1,0 +1,56 @@
+.container {
+	padding-right: 15px;
+  	padding-left: 15px;
+ 	margin-right: auto;
+  	margin-left: auto;
+}
+
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.btn {
+	line-height: 2.6
+}
+
+.navbar-default {
+  background-color: #f8f8f8;
+  border-color: #e7e7e7;
+}
+  
+.img-logo {
+	height : 300px;
+	width : auto;
+}
+
+.img-logo2{
+	height: 50%;
+}
+
+body {
+  padding-top: 10px;
+}
+[class*="col-"], footer {
+  background-color: lightgreen;
+  border: 2px solid black;
+  border-radius: 6px;
+  line-height: 40px;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 70%;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 70%;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 70%;
+  }
+}

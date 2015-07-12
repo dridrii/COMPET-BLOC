@@ -1,0 +1,62 @@
+<%@ page pageEncoding="UTF-8" %>
+<!DOCTYPE html>
+<html>
+ <head>
+    <link href="boostrap/dist/css/bootstrap.css" rel="stylesheet">
+    <link href="inc/css/tuto.css" rel="stylesheet">
+  </head>
+  
+ 
+  <body>
+  <header>
+	<div class="img-logo2">
+		<a href="#" >
+			<img class="img-logo" src="src/Logo-grimpe-bloc.png" alt="Grimpebloc" id="logo">
+		</a>
+	</div>  
+	
+    <div class="container">
+      <nav class="navbar navbar-default img-logo2 ">
+        <ul class="nav navbar-nav">
+        
+         
+          <li> <a href="#">COMPET-BLOC</a> </li>
+          
+          <li class="dropdown"> <%--Menu déroulant participant --%>
+            <a data-toggle="dropdown" href="#">Participant <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Nouveau Participant</a></li>
+            </ul>
+          </li>
+          
+          <li class="dropdown"> <%--Menu déroulant blocs --%>
+            <a data-toggle="dropdown" href="#">Blocs <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Nouveau Blocs</a></li>
+              <li><a href="#">Résultat Blocs</a></li>
+            </ul>
+          </li>        
+            
+          <li class="dropdown"> <%--Menu déroulant classement --%>
+            <a data-toggle="dropdown" href="#">Classement <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+            	<li><a href="#">Classement Générale</a></li>
+              	<li><a href="#">Homme Elite</a></li>
+            	<li><a href="#">Femme Elite</a></li>
+             	<li class="divider"></li>
+              	<li><a href="#">Homme Junior</a></li>              
+              	<li><a href="#">Femme Junior</a></li>
+            </ul>
+          </li>
+          
+          
+          <li> <a href="#">Références</a> </li>
+        </ul>
+      </nav>
+    </div>
+    
+</header>
+    	<script src="boostrap/js/jquery.js"></script>
+      	<script src="boostrap/dist/js/bootstrap.js"></script>
+	</body>
+</html>
